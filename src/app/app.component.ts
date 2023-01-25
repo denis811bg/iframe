@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   public ngOnInit(): void {
     let script = this._renderer2.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'http://test.smartasset.com:8080/captivate/script/etphvhxl';
+    script.src = 'https://sa.101.smrtast.com/captivate/script/4cxomnss';
     this._renderer2.appendChild(this._document.body, script);
   }
 }
